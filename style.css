@@ -1,0 +1,92 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    background-color: #03de73;
+    overflow: hidden;
+    position: relative;
+}
+
+.container{
+    padding: 0 50px;
+}
+
+header img {
+    width: 185px;
+    float: right;
+    padding: 15px;
+}
+.infos{
+    float: left;
+    color: #fff;
+    font-family: Roboto;
+    padding-left: 35px;
+}
+header h1{
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+header p{
+    margin: 0;
+    padding: 5px;
+}
+.education{
+    background-image: url("imgs/bg.png");
+    background-repeat: no-repeat;
+    background-size: 36%;
+    background-position-x: right;
+}
+ h1{
+    display: flex;
+    justify-content: center;
+    font-family: Roboto;
+    font-size: 40px;padding: 2% 0;
+}
+h1:before{
+    content: '';
+    position: relative;
+    background-color: #03de73;
+    width: 70px;
+    height: 7px;
+    top: 50px;
+    left: 70px;
+}
+ul li{
+    padding-bottom: 24px;
+    font-size: 18px;
+    display: flex;
+    font-family: Roboto;
+}
+.experiences{
+    background-image: url("imgs/bg-left.png");
+    background-repeat: no-repeat;
+    background-size: 36%;
+}
+
+.experiences ul{
+    width: 75%;
+    margin-left: 10%
+}
+
+.Compétences{
+    background-image: url("imgs/bg.png");
+    background-repeat: no-repeat;
+    background-size: 36%;
+    background-position-x: right;
+}
+
+.container:before{
+    content: '';
+    position: absolute;
+    width: 20%;
+    height: 10px;
+    background-color: #03de73;
+    /* padding: 0% 0; */
+    display: flex;
+    left: 50%;
+    transform: translateX(-50%);
+}
